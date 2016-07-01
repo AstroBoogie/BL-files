@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<!-- Example based on http://bl.ocks.org/mbostock/3887118 -->
+<!-- Tooltip example from http://www.d3noob.org/2013/01/adding-tooltips-to-d3js-graph.html -->
+<head>
+    <meta charset="utf-8">
+    <link type="text/css" rel="stylesheet" href="css/main.css ">
+    <link type="text/css" rel="stylesheet" href="css/ion.rangeSlider.css">
+    <link type="text/css" rel="stylesheet" href="css/ion.rangeSlider.skinFlat.css">
+    <title>BL | Starmap</title>
+
+</head>
+
+<body bgcolor="#141414">
+
+<script src="libraries/d3.v3.min.js"></script>
+<script src="libraries/moment.js"></script>
+<script src="libraries/jquery-1.12.3.min.js"></script>
+<script src="libraries/ion.rangeSlider.min.js"></script>
+
+<div>
+
+    <div class="center"><script src="js/target_map.js"></script></div>
+
+    <!--<img class="background" src="css/img/background.png" />-->
+
+    <img src="css/img/mollweide_projection.png" id="mollweideId" class="mollweide">
+
+
+    <button class="vmag_button" style="bottom: 22%;">Apparent Magnitude</button>
+    <div class="dot-button dot1">
+        <img style="bottom: calc(22% + 5px);" src="css/img/dot_button.png" />
+    </div>
+
+    <form class="obs_form">
+        <input type="text" name="mm" placeholder='mm' size="3" maxlength="2" value=""/>/
+        <input type="text" name="dd" placeholder='dd' size="3" maxlength="2" value=""/>/
+        <input type="text" name="yyyy" placeholder='yyyy' size="5" maxlength="4" value=""/>
+    </form>
+
+    <button class="obs_submit" style="transform:translate(25px, 25px);">Set Date</button>
+
+    <button class="obs_button" style="bottom: 16%;">Observation Schedule</button>
+
+    <div class="dot-button dot2">
+        <img style="bottom: calc(16% + 5px);" src="css/img/dot_button.png" />
+    </div>
+
+    <div class="range-slider" style="margin: 0 auto;">
+        <input type="text" id="range" value="" name="range" />
+    </div>
+
+    <div class="spectral-type">Spectral Type</div>
+
+    <div class="map-title">EXPLORE OUR SKY</div>
+
+</div>
+
+</body>
+</html>
