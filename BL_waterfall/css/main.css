@@ -1,0 +1,35 @@
+body {
+    position: absolute;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.waterfall-header {
+    font-size: 1.8rem;
+    color: #4F4F4F;
+    font-weight: 250;
+    text-anchor: middle;
+    left: Calc(50% - 200px);
+    top: 30px;
+    position: absolute;
+}
+
+.subtitle {
+    font-size: 1.4rem;
+    color: #AAAAAA;
+    font-weight: 250;
+    left: Calc(50% - 90px);
+    top: 70px;
+    text-anchor: middle;
+    position: absolute;
+}
+
+.center {
+    margin:auto;
+    width:900px;
+}
+
+.tooltip {
+
+}
