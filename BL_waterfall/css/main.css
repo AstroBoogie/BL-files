@@ -33,3 +33,61 @@ body {
 .tooltip {
 
 }
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+}
+
+.yaxis {
+    /*stroke: black;*/
+    stroke-width: 1.0;
+    fill: black;
+    shape-rendering: crispEdges;
+    font-size: 12px;
+}
+
+.tooltip {
+    position: absolute;
+    width: 160px;
+    height: 20px;
+    pointer-events: none;
+    font-size: 10px;
+}
+
+/*.yaxis line {*/
+    /*stroke-width: 1.0;*/
+    /*stroke: black;*/
+/*}*/
+
+.xaxis {
+    /*stroke: black;*/
+    fill: black;
+    shape-rendering: crispEdges;
+    font-size: 12px;
+}
+
+.xaxis line {
+    stroke-width: 1.0;
+    stroke: black;
+}
+
+.bigtext {
+    fill: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.graphbutton {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor:default;
+}
